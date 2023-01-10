@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 1.5rem;
+  width: 85%;
+  text-align: center;
+  color: darkgreen;
+}
+
+.heading {
+  font-size: 3.5rem;
+  font-family: impact;
+  font-weight: 200;
+  text-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.2rem;
+}
+
+.joke {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 4rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 255 0.6);
+  text-transform: uppercase;
+  width: 30rem;
+  color: darkgreen;
+  transition: all 300ms ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
